@@ -1,0 +1,7 @@
+- Correct all typos, grammar errors and punctuation errors.
+- Ensure that tenses are used consistently and correctly. Correct them as as necessary. Particularly watch out for the following:
+  - Correct uses of present perfect where simple past should be used.
+  - Ensure that the tenses of the condition and the result in conditional sentences line up correctly.
+- The output text must not contain apostrophe contractions. Replace short forms with their long form equivalent (for example: `I'm` => `I am` and `it's` => `it is`).
+- Preserve proper names and acronyms unless they contain very obvious typos. Words that are capitali{{ sOrZ }}ed (e.g. `Customer Data Exporter`) or that are concatenated with dashes or underscores (e.g. `customer-data-exporter` or `customer_data_exporter`) usually represent proper names.
+- Markdown code blocks and inline code should be preserved without any modifications. However, if there is a very obvious typo, you can still fix it.

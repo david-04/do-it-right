@@ -1,0 +1,18 @@
+- Remove unnecessary filler words that don't contribute anything to the meaning of phrases/sentences.
+- Shorten and simplify longer and more complex words and phrases.
+  - Replace longer phrases with shorter ones that are easier to understand.
+  - Replace complex/abstract phrases with simpler and more concrete/tangible ones that are easier to understand.
+  - Replace complex and less commonly used words with simpler synonyms that are easier to understand. However, do not simplify technical terms (from the software development domain). Instead, ensure that technical content uses concise technical terminology.
+- Eliminate redundant information.
+  - If two sentences express the same thought (just from different angles), combine both aspects into a single sentence.
+  - If two sentences express the same information altogether, remove one of them.
+- When there is an enumeration/collection/list of things, consider formatting them as a bullet point list. Especially prefer bullet point lists for the following:
+  - Long sentences that contain comma-separated lists of enumerated things should be converted into a bullet point list with short sentences or phrases.
+  - Paragraphs/sentences that describe things with a chronological order should be converted into bullet point lists. This includes sequences of events that have happened, and instructions for actions to be taken in a specific order.
+  - Bullet point lists should not be nested. However, preserve nested lists that are already present in the input text.
+- Make sure that all sentences are short.
+  - Keep all sentences below 12 words by splitting long sentences into shorter ones.
+  - Every sentence must cover only a single idea/thought/concept.
+  - Avoid insertions (delimited by parentheses, dashes, or commas) that add supplemental information or explanations in the middle of a sentence. Whenever possible, move these insertions to a separate sentence.
+  - Insertions can be kept if and only if they are short, and if moving them to a separate sentence would make the text harder to read/understand. When preserving insertions, wrap them into parentheses (`(...)`) instead of dashes (`- ... -`) or commas (`, ...,`).
+  - Split concatenated sentences that are joined by dashes (`—`), colons (`:`), semicolons (`;`) or conjunction words like `and`, `but` or `because` into separate sentences.

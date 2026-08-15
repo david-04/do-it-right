@@ -1,0 +1,17 @@
+- The goal of this step is to reorder/reorgani{{ sOrZ }}e the text content to give it a clear logical flow.
+- Order sentences/paragraphs in a logical manner.
+  - Content must be sorted in a way, so that each sentence can be understood based solely on its preceding sentences. Sentences must not reference or assume knowledge that's only introduced later in the text.
+  - All sentences/sections that cover the same idea/thought/concept should be grouped together in one place. The text should not return to discussing a topic/aspect that has already been covered before.
+  - If the input text contains Markdown headings, treat them as hard boundaries. You must not move text content from one section (Markdown header) to another. Text can be reordered within each section, but it must not cross any header.
+  - If the input text contains lists (bullet point or numbered), treat them as an inseparable unit. Do not split lists. Do not reorder list items. When moving content, move the whole list with all of its bullet points.
+  - If the input text contains code blocks, treat them as an inseparable unit. Do not split code blocks. Do not reorder content within code blocks. When moving content, move the whole code block as one unit.
+- Review and revi{{ sOrZ }}e the paragraph grouping.
+  - Ensure that each idea/thought/concept has its own paragraph.
+  - Group sentences that cover the same topic into a single paragraph.
+  - Split paragraphs that cover multiple topics/aspects into separate paragraphs.
+  - Paragraphs should have between 2 and 8 sentences. If paragraphs become too long, split them into smaller ones (even if they are related to the same topic).
+- Consider inserting headers.
+  - Consider inserting headers to group the content into logical sections.
+  - Do not add any headers if the input text already contains Markdown headers.
+  - Do not add any headers if the text has fewer than 5 paragraphs.
+  - Do not add any headers if the text covers less than 3 distinct topics.

@@ -1,0 +1,3 @@
+- The goal of this step is to rephrase the text content to make it sound more polished.
+- Replace colloquial terms with phrases that are commonly used in written text content.
+- Identify and remove unnecessary word repetitions. When neighbouring sentences refer to the same thing, alternate between naming it and referring to it as `it` (for exampe: "The _invoice_ is stored in the database. Once saved, _it_ can't be altered. However, _invoices_ can be cancelled.").

@@ -1,0 +1,7 @@
+/.vscode
+/generated
+/node_modules
+/resources/images/*
+!/resources/images/do-it-right.png
+/talk-like-an-egyptian/**/*.draft.*
+/talk-like-an-egyptian/templates/english/utility-prompts
